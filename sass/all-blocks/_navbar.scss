@@ -1,0 +1,18 @@
+nav {
+    background-color: $black_color;
+}
+
+.navbar {
+    @include primary-list;
+    &__text {
+        color: $white_color;
+    }
+    &__form {
+        width: 50%;
+        background-color: $black_color;
+    }
+    &__menu {
+        @include primary-list;
+        column-gap: 26px;
+    }
+}
